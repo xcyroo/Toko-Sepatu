@@ -61,16 +61,19 @@ nav ul li a:hover{
 /* Hero */
 
 ..hero{
-    height:100vh;
-    background:linear-gradient(135deg,#0f172a,#2563eb);
-    url("images/hero.jpg") center/cover;
+    min-height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1920");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     display:flex;
-    flex-direction:column;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     text-align:center;
-    color:white;
-    padding:20px;
+    color:#fff;
 }
 
 .hero h1{
